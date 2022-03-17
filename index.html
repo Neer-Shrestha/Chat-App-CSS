@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | Chat App CSS</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <main class="main-grid">
+      <div class="mobile">
+        <div class="chat-header">
+          <div class="wrap">
+
+            <a href="#" aria-label="back">
+              <span class="arrow left"></span>
+            </a>
+            <div class="user">
+              <figure class="user-img">
+                <img src="images/avatar.jpg" alt="user image">
+              </figure>
+              <div class="user-info">
+                <h2 class="title">Samuel Green</h2>
+                <span class="subtitle">Available to Walk</span>
+              </div>
+            </div>
+            <!-- End of user -->
+          </div>
+
+          <button class="menu" aria-label="option menu">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </button>
+        </div>
+        <!-- End of chat header -->
+        <div class="chat-body">
+          <ul class="chat-list left">
+            <li class="list-item">
+              That sounds great. I'd be happy with that.
+            </li>
+            <li class="list-item">
+              Could you send over some pictures of your dog. please?
+            </li>
+          </ul>
+          <!-- End of chat list -->
+          <ul class="chat-list right">
+            <li class="list-item images">
+              <img src="images/dog-image-1.jpg" alt="chat image">
+              <img src="images/dog-image-2.jpg" alt="chat image">
+              <img src="images/dog-image-3.jpg" alt="chat image">
+            </li>
+            <li class="list-item">
+              Here are a few pictures. She's a happy girl.
+            </li>
+            <li class="list-item">
+              Can you make it?
+            </li>
+          </ul>
+          <!-- End of chat list -->
+          <ul class="chat-list left">
+            <li class="list-item">
+              She looks so happy! The time we discussed works. How long shall O take her out for?
+            </li>
+            <!-- <li class="list-item">
+              Could you send over some pictures of your dog. please?
+            </li> -->
+          </ul>
+          <!-- End of chat list -->
+        </div>
+        <!-- End of chat body -->
+        <form class="chat-input">
+          <input type="text" placeholder="Type a message ...">
+          <button type="submit" aria-label="send message">
+            <span class="arrow right"></span>
+          </button>
+        </form>
+      </div>
+      <!-- End of mobile -->
+      <div class="banner-text">
+        <h1>Simple Booking</h1>
+        <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss to arrangements
+          and make booking. Once the walk has been completed you can rate your walker and book again all through the
+          chat</p>
+      </div>
+    </main>
+  </div>
+
+</body>
+
+</html>
